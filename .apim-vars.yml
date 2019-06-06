@@ -9,7 +9,7 @@ environments:
      production:
        url: 'https://test.jsonplaceholder.typicode.com/posts/1'
 
-  - name: prod
+  - name: production
     endpoints:
       production:
         url: 'https://prod.jsonplaceholder.typicode.com/posts/1'
