@@ -1,0 +1,22 @@
+{
+  "id": {
+    "providerName": "admin",
+    "apiName": "FooAPI",
+    "version": "v1.0.0"
+  },
+  "type": "HTTP",
+  "context": "/fooAPI/v1.0.0",
+  "contextTemplate": "/fooAPI/{version}",
+  "tags": [],
+  "availableTiers": [
+    {
+      "name": "Unlimited"
+    }
+  ],
+  "uriTemplates": [],
+  "status": "PUBLISHED",
+  "visibility": "public",
+  "transports": "http,https",
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://jsonplaceholder.typicode.com/posts/1\", \"config\":\"null\"}, \"endpoint_type\":\"http\"}",
+  "implementation": "ENDPOINT"
+}
